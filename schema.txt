@@ -1,0 +1,23 @@
+<xs:schema xmlns:xs="http//www.w3schools.org"/>
+<xs:element name="Equiinfo" maxOccurs="unbounded">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="Equiname" type="xs:string"/>
+      <xs:element name="type" type="xs:string"/>
+      <xs:element name="model" type="xs:string"/>
+      <xs:element name="description" type="xs:string"/>
+      <xs:element name="availability" type="xs:string"/>
+       <xs:element name="condition" type="xs:string"/>	
+	<xs:element name="contact">
+		<xs:complexType>
+  		  <xs:sequence>
+			 <xs:element name="name" type="xs:string"/>
+   			  <xs:element name="address" type="xs:string"/>
+  		         <xs:element name="phone" type="xs:string"/>
+     			 <xs:element name="email" type="xs:string"/>
+		  </xs:sequence>
+ 		 </xs:complexType>
+
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equiinfo>
+<equiname></equiname>
+<type></type>
+<model></model>
+<serial></serial>
+<description></description>
+<availability></availability>
+<condition></condition>
+<contact>
+<name></name>
+<address></address>
+<phone></phone>
+<email></email>
+</contact>
+</equiinfo>

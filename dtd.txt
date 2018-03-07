@@ -1,0 +1,16 @@
+<!DOCTYPE equiinfo [
+<!ELEMENTequiinfo(equiname,type,model,serial,description,availability,
+condition,contact)>
+<!ELEMENT equiname (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT serial (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT availability (#PCDATA)>
+<!ELEMENT condition (#PCDATA)>
+<!ELEMENT contact (name,address,phone,email)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+]>
